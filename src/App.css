@@ -1,0 +1,129 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Smooth Scroll & Soft Feel */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body Theme */
+body {
+  background-color: #fff5fa; /* very soft pink */
+  color: #444;
+}
+
+/* Page Container */
+.page-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Buttons */
+button,
+.btn {
+  padding: 10px 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+/* Primary Button */
+.btn-primary {
+  background: #ff7fbf;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #ff5fae;
+}
+
+/* Soft Outline Button */
+.btn-light {
+  background: white;
+  border: 2px solid #ff7fbf;
+  color: #ff7fbf;
+}
+
+.btn-light:hover {
+  background: #ffe1f0;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: #ff408c;
+  letter-spacing: 0.5px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #ff4c94;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: #ff1e7a;
+}
+
+/* Section Titles */
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* Flex center utility */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card Style */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 3px 10px rgba(255, 103, 171, 0.15);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(255, 103, 171, 0.2);
+}
+
+/* Inputs */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1.5px solid #ffcce5;
+  border-radius: 6px;
+  outline: none;
+  background: #fff;
+  transition: 0.2s;
+}
+
+input:focus, textarea:focus {
+  border-color: #ff7fbf;
+  box-shadow: 0 0 6px rgba(255, 123, 191, 0.4);
+}
+
+/* Navbar (if needed) */
+.navbar {
+  width: 100%;
+  background: white;
+  padding: 15px 25px;
+  box-shadow: 0 2px 10px rgba(255, 104, 171, 0.15);
+  font-weight: 600;
+}

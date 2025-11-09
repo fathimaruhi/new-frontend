@@ -1,0 +1,94 @@
+/* Reset default margin and set smooth scrolling */
+html, 
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  height: auto;
+  font-family: 'Arial', sans-serif;
+  background: #f8f8f8;
+  overflow-y: visible;
+}
+
+/* Container for all products */
+.product-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 40px 20px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Product card styling */
+.product-card {
+  background: #fff;
+  width: 240px;
+  padding: 16px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(255, 192, 203, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(255, 105, 180, 0.3);
+}
+
+/* Image inside product card */
+.product-card img {
+  width: 200px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 12px;
+  transition: transform 0.3s;
+}
+
+.product-card img:hover {
+  transform: scale(1.05);
+}
+
+/* Product title */
+.product-card h3 {
+  font-size: 1.1rem;
+  margin: 10px 0 6px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Price styling */
+.price {
+  color: hotpink;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+/* Button styling */
+/* Add spacing above the button in product cards */
+.product-card button {
+  border: none;
+  padding: 10px 18px;
+  margin-top: 15px; /* moves button further from price/text */
+  border-radius: 8px;
+  background: hotpink;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.product-card button:hover {
+  background: deeppink;
+  transform: scale(1.05);
+}
+
+
+button:hover {
+  background: deeppink;
+  transform: scale(1.05);
+}
